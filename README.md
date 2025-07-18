@@ -23,11 +23,12 @@ This contains:Department, Performance Rating (Very Poor, Poor, Average, Good, Ve
 1. Replace missing gender with 'Undisclosed'
 2. Remove employees with Null/blanks salaries (ex-employees)
 3. Remove entries with Null/blanks departments
-4. Unpivot the bonus rules into a usable format for computations.
-5. Clean Column Names by
+4. Removed Duplicates values
+5. Unpivot the bonus rules into a usable format for computations.
+6. Clean Column Names by
    a. Rename: Attribute to Rating
    b. Value → Bonus_Percentage
-6. Created new tables for distinct columns of Gender,Department, Location, and Rating and adding index to them
+7. Created new tables for distinct columns of Gender,Department, Location, and Rating and adding index to them
 #### Index tables
 - Gender
 <img width="883" height="395" alt="image" src="https://github.com/user-attachments/assets/72d7f966-793a-4a37-bd91-36d44f7b263c" />
@@ -43,6 +44,16 @@ This contains:Department, Performance Rating (Very Poor, Poor, Average, Good, Ve
 - Rating
   
 <img width="885" height="472" alt="image" src="https://github.com/user-attachments/assets/d7247d7e-3e05-4e14-9d16-7a6e6b15ede7" />
+
+8. Merged all my index tables to Employee Data using merging with Left Joins getting all their ID and the Bonus_Percentage. This adds a new column Bonus_Percentage to each employee based on their department and rating.
+
+<img width="1911" height="992" alt="image" src="https://github.com/user-attachments/assets/819b76e2-6f13-42a2-aad7-8cf3cf2353f3" />
+9. Loaded the cleaned data into Power BI for analysis and visuals
+
+10. Calculated Columns (in Power BI)
+#### Using my Data View and create the following DAX columns:
+- 'Bonus_Amount = 'Palmoria Group emp-data_083200'[Salary] * 'Palmoria Group emp-data_083200'[Palmoria Group Bonus Rules_083311.Bonus_Percentage]'
+
 
 
 
