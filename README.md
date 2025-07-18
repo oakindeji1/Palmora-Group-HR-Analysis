@@ -59,7 +59,7 @@ This contains:Department, Performance Rating (Very Poor, Poor, Average, Good, Ve
   
 - `New_Salary = 'Palmoria Group emp-data_083200'[Salary] + 'Palmoria Group emp-data_083200'[Bonus_Amount]`
   
-- `Pay_Band = 
+- `Pay_Band =
 SWITCH(
     TRUE(),
     [Salary] < 10000, "$0 - $10K",
@@ -72,9 +72,7 @@ SWITCH(
     [Salary] < 80000, "$70K - $80K",
     [Salary] < 90000, "$80K - $90K",
     [Salary] < 100000, "$90K - $100K",
-    "$100K+"
-
-)`
+    "$100K+")`
 
 - `Average_Female_Salary = CALCULATE(AVERAGE('Palmoria Group emp-data_083200'[Salary]),'Palmoria Group emp-data_083200'[Gender]="Female")`
   
