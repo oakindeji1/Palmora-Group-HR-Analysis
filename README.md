@@ -49,8 +49,11 @@ This contains:Department, Performance Rating (Very Poor, Poor, Average, Good, Ve
 
 <img width="1911" height="992" alt="image" src="https://github.com/user-attachments/assets/819b76e2-6f13-42a2-aad7-8cf3cf2353f3" />
 9. Loaded the cleaned data into Power BI for analysis and visuals
+
 10. Calculated Columns (in Power BI)
+    
 #### Using my Data View and create the following DAX columns:
+
 - `Bonus_Amount = 'Palmoria Group emp-data_083200'[Salary] * 'Palmoria Group emp-data_083200'[Palmoria Group Bonus Rules_083311.Bonus_Percentage]`
 
 
