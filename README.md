@@ -8,11 +8,13 @@
 #### Contains employee-level information:
 Name, Gender (some missing),Department (some marked as NaN), Salary (some missing for ex-employees), Location (regions: e.g., Lagos, Abuja, Kaduna)
 and Rating (performance ratings)
+
 <img width="598" height="990" alt="image" src="https://github.com/user-attachments/assets/1fac5d23-f575-4328-b97d-a2b42cb0a0f3" />
 
 
 ### Bonus Rules (Palmoria Group Bonus Rules_083311)
 This contains:Department, Performance Rating (Very Poor, Poor, Average, Good, Very Good) and Bonus Percentage
+
 <img width="1918" height="1004" alt="image" src="https://github.com/user-attachments/assets/ccbce3b7-f385-43a9-b23c-7fbca4501dcb" />
 
 CASE SCENARIO 
