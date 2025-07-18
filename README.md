@@ -48,7 +48,8 @@ This contains:Department, Performance Rating (Very Poor, Poor, Average, Good, Ve
 8. Merged all my index tables to Employee Data using merging with Left Joins getting all their ID and the Bonus_Percentage. This adds a new column Bonus_Percentage to each employee based on their department and rating.
 
 <img width="1911" height="992" alt="image" src="https://github.com/user-attachments/assets/819b76e2-6f13-42a2-aad7-8cf3cf2353f3" />
-9. Loaded the cleaned data into Power BI for analysis and visuals
+9. Loaded the cleaned data into Power BI for analysis and visuals.
+
 10. Calculated Columns (in Power BI)
     
 #### Using my Data View and create the following DAX columns:
