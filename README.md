@@ -17,6 +17,31 @@ This contains:Department, Performance Rating (Very Poor, Poor, Average, Good, Ve
 
 <img width="1918" height="1004" alt="image" src="https://github.com/user-attachments/assets/ccbce3b7-f385-43a9-b23c-7fbca4501dcb" />
 
+### Transforming the data
+#### To begin the analysis and provide the insights requested, I perform the below transformations:
+#### Clean the data by 
+1. Replace missing gender with 'Undisclosed'
+2. Remove employees with Null/blanks salaries (ex-employees)
+3. Remove entries with Null/blanks departments
+4. Unpivot the bonus rules into a usable format for computations.
+5. Clean Column Names by
+   a. Rename: Attribute to Rating
+   b. Value → Bonus_Percentage
+6. Created new tables for distinct columns of Gender,Department, Location, and Rating and adding index to them
+#### Index tables
+- Gender
+<img width="883" height="395" alt="image" src="https://github.com/user-attachments/assets/72d7f966-793a-4a37-bd91-36d44f7b263c" />
+- Department
+<img width="854" height="543" alt="image" src="https://github.com/user-attachments/assets/572c8966-2af7-4edc-89d7-786e862949f8" />
+- Location
+<img width="912" height="447" alt="image" src="https://github.com/user-attachments/assets/352c7072-0ac2-4859-8fa0-c114b8462be8" />
+- Rating
+<img width="885" height="472" alt="image" src="https://github.com/user-attachments/assets/d7247d7e-3e05-4e14-9d16-7a6e6b15ede7" />
+
+
+
+
+
 CASE SCENARIO 
 ●  Analyse the company data and generate insights that the Palmoria management 
 team would need to address 
