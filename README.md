@@ -56,6 +56,29 @@ This contains:Department, Performance Rating (Very Poor, Poor, Average, Good, Ve
 #### Using my Data View and create the following DAX columns:
 
 - `Bonus_Amount = 'Palmoria Group emp-data_083200'[Salary] * 'Palmoria Group emp-data_083200'[Palmoria Group Bonus Rules_083311.Bonus_Percentage]`
+- `New_Salary = 'Palmoria Group emp-data_083200'[Salary] + 'Palmoria Group emp-data_083200'[Bonus_Amount]`
+- `Pay_Band = 
+SWITCH(
+    TRUE(),
+    [Salary] < 10000, "$0 - $10K",
+    [Salary] < 20000, "$10K - $20K",
+    [Salary] < 30000, "$20K - $30K",
+    [Salary] < 40000, "$30K - $40K",
+    [Salary] < 50000, "$40K - $50K",
+    [Salary] < 60000, "$50K - $60K",
+    [Salary] < 70000, "$60K - $70K",
+    [Salary] < 80000, "$70K - $80K",
+    [Salary] < 90000, "$80K - $90K",
+    [Salary] < 100000, "$90K - $100K",
+    "$100K+"
+)`
+- `Average_Female_Salary = CALCULATE(AVERAGE('Palmoria Group emp-data_083200'[Salary]),'Palmoria Group emp-data_083200'[Gender]="Female")`
+- `Average_Male_Salary = CALCULATE(AVERAGE('Palmoria Group emp-data_083200'[Salary]),'Palmoria Group emp-data_083200'[Gender]="Male")`
+- `Compliance_Percentage = DIVIDE([Compliant_Employees],COUNTROWS('Palmoria Group emp-data_083200'))`
+- `Compliant_Employees = CALCULATE(COUNTROWS('Palmoria Group emp-data_083200'),'Palmoria Group emp-data_083200'[Salary] >=90000)`
+- `Compliant_Employees = CALCULATE(COUNTROWS('Palmoria Group emp-data_083200'),'Palmoria Group emp-data_083200'[Salary] >=90000)`
+- `Total_Compensation_Paid = SUM('Palmoria Group emp-data_083200'[New_Salary])`
+
 
 
 
