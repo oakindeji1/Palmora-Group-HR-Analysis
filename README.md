@@ -110,6 +110,7 @@ SWITCH(
      
 3. Salary Analysis & Gender Pay Gap
   - Objective: To reveal whether there's a gender pay disparity.
+    
        A. Average Salary by Gender
 <img width="374" height="253" alt="image" src="https://github.com/user-attachments/assets/8ab3538f-cbb9-430f-b632-f3713167d8d9" />
 
