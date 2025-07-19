@@ -27,7 +27,7 @@ This contains:Department, Performance Rating (Very Poor, Poor, Average, Good, Ve
 5. Unpivot the bonus rules into a usable format for computations.
 6. Clean Column Names by
    a. Rename: Attribute to Rating
-   b. Value → Bonus_Percentage
+   b. Value - Bonus_Percentage
 7. Created new tables for distinct columns of Gender,Department, Location, and Rating and adding index to them
 #### Index tables
 - Gender
