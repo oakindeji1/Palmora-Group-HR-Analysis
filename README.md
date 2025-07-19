@@ -93,11 +93,11 @@ SWITCH(
 1. Gender Distribution
    - Objective: Gender representation across the company, by region and department.
      
-   <img width="394" height="305" alt="image" src="https://github.com/user-attachments/assets/172c4170-f395-422b-8586-080107e67c39" />
+<img width="394" height="305" alt="image" src="https://github.com/user-attachments/assets/172c4170-f395-422b-8586-080107e67c39" />
 
-  <img width="334" height="296" alt="image" src="https://github.com/user-attachments/assets/0a834e84-4a40-4c1b-91bf-df96f6c2f16a" />
-
-  <img width="412" height="314" alt="image" src="https://github.com/user-attachments/assets/c623a291-06a8-4e50-9e8c-af3da08e52a7" />
+ <img width="314" height="357" alt="image" src="https://github.com/user-attachments/assets/14a134c5-ea64-4746-8d23-8b1757bbd62f" />
+ 
+<img width="412" height="314" alt="image" src="https://github.com/user-attachments/assets/c623a291-06a8-4e50-9e8c-af3da08e52a7" />
   
    - Insight:  It was clear that Male Employees are more than the female in the company at large with male being 49.45% and Female being 46.14%. It is also clear that male staff are many in all the location than female staff. Product Management, Legal, sales, Support, Accounting and Marketing Department has more male employees than others which mean 6 Departments out of the 12 Department has more Male staff but only training Department has the equal number of Male Staff and female Staff
 
