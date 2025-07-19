@@ -75,8 +75,6 @@ This contains:Department, Performance Rating (Very Poor, Poor, Average, Good, Ve
 
 ## Visualization Dashboard Walkthrough 
 
-<img width="1301" height="793" alt="image" src="https://github.com/user-attachments/assets/e9d57523-ad0c-4b2b-8000-448f003c9dbf" />
-
 1. Gender Distribution
    - Objective: Gender representation across the company, by region and department.
      
