@@ -91,32 +91,23 @@ SWITCH(
 <img width="1301" height="793" alt="image" src="https://github.com/user-attachments/assets/e9d57523-ad0c-4b2b-8000-448f003c9dbf" />
 
 1. Gender Distribution
-   - Objective: Highlight gender representation across the company, by region and department.
+   - Objective: Gender representation across the company, by region and department.
+     
    <img width="394" height="305" alt="image" src="https://github.com/user-attachments/assets/172c4170-f395-422b-8586-080107e67c39" />
 
   <img width="334" height="296" alt="image" src="https://github.com/user-attachments/assets/0a834e84-4a40-4c1b-91bf-df96f6c2f16a" />
 
   <img width="412" height="314" alt="image" src="https://github.com/user-attachments/assets/c623a291-06a8-4e50-9e8c-af3da08e52a7" />
-   - Insight:  It was clear that Male Employees are more than the female in the company at large with male being 49.45% and Female being 46.14%. It is also clear that male staff are many in all the location than female staff. Product Management, Legal, sales, Support, Accounting and Marketing Department has more male employees than others which mean 6 Departments out of the 12 Department has more Male staff but only training Department has the equal number of Male Staff and female
+  
+   - Insight:  It was clear that Male Employees are more than the female in the company at large with male being 49.45% and Female being 46.14%. It is also clear that male staff are many in all the location than female staff. Product Management, Legal, sales, Support, Accounting and Marketing Department has more male employees than others which mean 6 Departments out of the 12 Department has more Male staff but only training Department has the equal number of Male Staff and female Staff
 
+2. Performance Ratings by Gender
+   - Objective: To identify if performance ratings show any gender bias.
+
+<img width="538" height="333" alt="image" src="https://github.com/user-attachments/assets/ca77cd5b-b7a7-423d-8e6f-b5669a221526" />
+
+ - Insight:  It was clear that 1020 Male Employees has the highest rating of Average while 155 Male Employees has the least rating of Very Poor
      
-
-
-
-● The insights required are based on your discretion. However, Mr Gamma, as an 
-insider, has offered to give you pointers on areas you need to pay attention to  
-Required: 
-● Generally, there are two genders in the organization. However, some employees 
-refused to disclose their gender. You would need to assign a generic gender status 
-to these employees 
-● Some employees are without a salary because they are no longer with the company. 
-You will need to take those employees out 
-● Lastly, some departments are indicated as “NULL”. These departments would also 
-need to be taken out. 
-Pointers from Mr Gamma 
-1. What is the gender distribution in the organization? Distil to regions and 
-departments 
-2. Show insights on ratings based on gender 
 3. Analyse the company’s salary structure. Identify if there is a gender pay gap. If 
 there is, identify the department and regions that should be the focus of 
 management 
