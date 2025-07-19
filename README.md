@@ -172,4 +172,12 @@ payments and asked you to:
 
 <img width="416" height="157" alt="image" src="https://github.com/user-attachments/assets/51dba078-5c18-46e2-b1b1-72646649971e" />
 
+## Dashboard
+
+<img width="1423" height="804" alt="image" src="https://github.com/user-attachments/assets/f54433a8-49fe-4b92-92f6-879c7c77b3e4" />
+
+<img width="1426" height="797" alt="image" src="https://github.com/user-attachments/assets/3fee8b01-3b09-468b-8c36-16853b53ded6" />
+
+
+
 
