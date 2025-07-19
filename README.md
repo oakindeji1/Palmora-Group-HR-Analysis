@@ -106,11 +106,21 @@ SWITCH(
 
 <img width="538" height="333" alt="image" src="https://github.com/user-attachments/assets/ca77cd5b-b7a7-423d-8e6f-b5669a221526" />
 
- - Insight:  It was clear that 1020 Male Employees has the highest rating of Average while 155 Male Employees has the least rating of Very Poor
+ - Insight:  It was clear that 1020 Male Employees has the highest rating of Average while 155 Male Employees has the least rating of Very Poor though more women are rate Good and very Good thank men.
      
-3. Analyse the company’s salary structure. Identify if there is a gender pay gap. If 
-there is, identify the department and regions that should be the focus of 
-management 
+3. Salary Analysis & Gender Pay Gap
+  - Objective: To reveal whether there's a gender pay disparity.
+       A. Average Salary by Gender
+<img width="374" height="253" alt="image" src="https://github.com/user-attachments/assets/8ab3538f-cbb9-430f-b632-f3713167d8d9" />
+
+      B. Salary by Gender and Department
+<img width="517" height="311" alt="image" src="https://github.com/user-attachments/assets/c1803f20-aa57-4e6f-a7c9-f6d1725c2c69" />
+
+    C. Salary by Gender and Location
+<img width="531" height="127" alt="image" src="https://github.com/user-attachments/assets/0eda24ed-db04-4412-a8b6-b1e96122704d" />
+
+- Insight:  It was clear that 1020 Male Employees has the highest rating of Average while 155 Male Employees has the least rating of Very Poor though more women are rate Good and very Good thank men.
+  
 4. A recent regulation was adopted which requires manufacturing companies to pay 
 employees a minimum of $90,000 
 ● Does Palmoria meet this requirement? 
