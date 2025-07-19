@@ -145,8 +145,8 @@ C. Pay Band by Region
 - Insight to Watch For: Many Employees were paid below $90000 in all the location which means that Palmoria did not meet this requirement 
 
 ● Show the pay distribution of employees grouped by a band of $10,000. For example: 
-● How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000, 
-etc.? 
+● How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000, etc.? 
+
 <img width="646" height="456" alt="image" src="https://github.com/user-attachments/assets/f2610deb-b1a9-475e-b4e4-b1df0eb92948" />
 
 ● Also visualize this by regions 
@@ -164,9 +164,12 @@ payments and asked you to:
 
 ●  Calculate the total amount to be paid to individual employees (salary inclusive of bonus) 
 
-<img width="546" height="425" alt="image" src="https://github.com/user-attachments/assets/46e45713-d399-432c-a1f3-91660aefd032" />
-
 <img width="733" height="495" alt="image" src="https://github.com/user-attachments/assets/319587c1-88cc-41d3-a7b1-604fc7054795" />
 
 
 ● Total amount to be paid out per region and company-wide
+<img width="724" height="501" alt="image" src="https://github.com/user-attachments/assets/a5f66c21-f31e-4d1d-bb97-54a1b78ac34c" />
+
+<img width="416" height="157" alt="image" src="https://github.com/user-attachments/assets/51dba078-5c18-46e2-b1b1-72646649971e" />
+
+
