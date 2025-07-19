@@ -59,20 +59,7 @@ This contains:Department, Performance Rating (Very Poor, Poor, Average, Good, Ve
   
 - `New_Salary = 'Palmoria Group emp-data_083200'[Salary] + 'Palmoria Group emp-data_083200'[Bonus_Amount]`
   
-- `Pay_Band =
-SWITCH(
-    TRUE(),
-    [Salary] < 10000, "$0 - $10K",
-    [Salary] < 20000, "$10K - $20K",
-    [Salary] < 30000, "$20K - $30K",
-    [Salary] < 40000, "$30K - $40K",
-    [Salary] < 50000, "$40K - $50K",
-    [Salary] < 60000, "$50K - $60K",
-    [Salary] < 70000, "$60K - $70K",
-    [Salary] < 80000, "$70K - $80K",
-    [Salary] < 90000, "$80K - $90K",
-    [Salary] < 100000, "$90K - $100K",
-    "$100K+")`
+
 
 - `Average_Female_Salary = CALCULATE(AVERAGE('Palmoria Group emp-data_083200'[Salary]),'Palmoria Group emp-data_083200'[Gender]="Female")`
   
@@ -121,16 +108,49 @@ SWITCH(
 <img width="531" height="127" alt="image" src="https://github.com/user-attachments/assets/0eda24ed-db04-4412-a8b6-b1e96122704d" />
 
 - Insight:  It was clear that 1020 Male Employees has the highest rating of Average while 155 Male Employees has the least rating of Very Poor though more women are rate Good and very Good thank men.
+
+4. Pay Band Distribution
+ - Objective: To understand income distribution and check compliance with the $90,000 minimum regulation.
+   
+A. Create Pay Band Column
+
+ - Use a calculated column in DAX:
+   
+   - `Pay_Band = 
+SWITCH(
+    TRUE(),
+    [Salary] < 10000, 1,
+    [Salary] < 20000, 2,
+    [Salary] < 30000, 3,
+    [Salary] < 40000, 4,
+    [Salary] < 50000, 5,
+    [Salary] < 60000, 6,
+    [Salary] < 70000, 7,
+    [Salary] < 80000, 8,
+    [Salary] < 90000, 9,
+    [Salary] < 100000, 10,
+    11
+)`
+
+B. Pay Band Chart
+
+<img width="723" height="517" alt="image" src="https://github.com/user-attachments/assets/4f9a7c9f-5c49-4285-a020-1c43338304a1" />
+
+
+
+C. Pay Band by Region
+
+<img width="678" height="461" alt="image" src="https://github.com/user-attachments/assets/3bf42043-ce3f-4681-aab6-bcd0b95d1977" />
+
+- Insight to Watch For: Do many employees fall below $90K? If so, which locations?
   
-4. A recent regulation was adopted which requires manufacturing companies to pay 
-employees a minimum of $90,000 
 ● Does Palmoria meet this requirement? 
 ● Show the pay distribution of employees grouped by a band of $10,000. For example: 
 ● How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000, 
 etc.? 
 ● Also visualize this by regions 
 Case Questions 
-5. Mr Gamma thought to himself that since you were already working on the employee 
+6. Mr Gamma thought to himself that since you were already working on the employee 
 data, you could help out with allocating the annual bonus pay to employees based on the 
 performance rating. He handed you another data set that contains rules for making bonus 
 payments and asked you to: 
