@@ -140,21 +140,33 @@ B. Pay Band Chart
 
 C. Pay Band by Region
 
-<img width="678" height="461" alt="image" src="https://github.com/user-attachments/assets/3bf42043-ce3f-4681-aab6-bcd0b95d1977" />
+<img width="748" height="504" alt="image" src="https://github.com/user-attachments/assets/23d64426-dc5f-42f6-9989-1d1698513346" />
 
-- Insight to Watch For: Do many employees fall below $90K? If so, which locations?
-  
-● Does Palmoria meet this requirement? 
+- Insight to Watch For: Many Employees were paid below $90000 in all the location which means that Palmoria did not meet this requirement 
+
 ● Show the pay distribution of employees grouped by a band of $10,000. For example: 
 ● How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000, 
 etc.? 
+<img width="646" height="456" alt="image" src="https://github.com/user-attachments/assets/f2610deb-b1a9-475e-b4e4-b1df0eb92948" />
+
 ● Also visualize this by regions 
+
+<img width="754" height="500" alt="image" src="https://github.com/user-attachments/assets/226183c9-242e-4730-815f-a1401e8d4ce6" />
+
 Case Questions 
 6. Mr Gamma thought to himself that since you were already working on the employee 
 data, you could help out with allocating the annual bonus pay to employees based on the 
 performance rating. He handed you another data set that contains rules for making bonus 
 payments and asked you to: 
 ●  Calculate the amount to be paid as a bonus to individual employees 
-●  Calculate the total amount to be paid to individual employees (salary inclusive of 
-bonus) 
+
+<img width="496" height="390" alt="image" src="https://github.com/user-attachments/assets/9771fb14-9fa0-4be9-856e-4a26de32ad9a" />
+
+●  Calculate the total amount to be paid to individual employees (salary inclusive of bonus) 
+
+<img width="546" height="425" alt="image" src="https://github.com/user-attachments/assets/46e45713-d399-432c-a1f3-91660aefd032" />
+
+<img width="733" height="495" alt="image" src="https://github.com/user-attachments/assets/319587c1-88cc-41d3-a7b1-604fc7054795" />
+
+
 ● Total amount to be paid out per region and company-wide
